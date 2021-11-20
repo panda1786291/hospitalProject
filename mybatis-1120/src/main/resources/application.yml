@@ -1,0 +1,14 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: mybatis-1120
+  datasource:
+    driver-class-name: org.gjt.mm.mysql.Driver
+    username: root
+    password: 1786291
+    url: jdbc:mysql://localhost:3306/mybatis_plus
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
